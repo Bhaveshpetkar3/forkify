@@ -41,7 +41,7 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: $color-grey-dark-1;
-  background-image: $gradient;
+  background-image: url('../img/bgimage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   min-height: calc(100vh - 2 * 4vw);

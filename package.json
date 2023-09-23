@@ -1,21 +1,21 @@
 {
-  "name": "forkify",
+  "name": "dishfetch",
   "version": "1.0.0",
   "description": "Recipe application",
-  "dependencies": {
-    "core-js": "^3.32.2",
-    "fracty": "^1.0.11",
-    "regenerator-runtime": "^0.14.0"
-  },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html"
   },
-  "author": "Bhavesh petkar",
+  "author": "Bhavesh Petkar",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
     "sass": "^1.68.0"
+  },
+  "dependencies": {
+    "core-js": "^3.32.2",
+    "fracty": "^1.0.11",
+    "regenerator-runtime": "^0.14.0"
   }
 }
